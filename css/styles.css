@@ -369,9 +369,10 @@ address{font-style: normal}
 .container.double-container{
     display: flex;
     align-items: baseline;
+    justify-content: space-around;
 }
 .container-footer-logo{
-    margin-right: 120px;
+    
 }
 .footer-text-soc{
     font-weight: 500;
@@ -383,5 +384,51 @@ address{font-style: normal}
 }
 .socicon-list-footer{
     gap: 16px;
+}
+.footer-text-soc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+.footer-form {
+    display: flex;
+    align-items: center;
+}
+.footer-form-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    max-width: 264px;
+    height: 40px;
+    background-color: transparent;
+    margin-right: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.footer-form-input::placeholder{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #FFF;
+}
+.footer-btn {
+    border-radius: 4px;
+    width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-btn:hover,
+.footer-btn:focus{
+    background-color: #404BBF;
+}
+.icon-submit {
+    fill: #fff;
+    margin-left: 8px;
 }
     

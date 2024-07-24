@@ -612,6 +612,6 @@ img{
 .modal-check:checked + .modal-check-text .checkbox-click {
     background-color: #404bbf;
     border-color: #404bbf;
-    fill: #FFF;
-
+    fill: #F4F4FD;
+    border: none; 
 }
